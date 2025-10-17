@@ -1,6 +1,6 @@
 # Analysis of `tag-v6.07.js`
 
-This document provides an analysis of the `tag-v6.07.js` script, which is the core tracking and overlay engine for the Intent.ly (formerly Smarter Click) service.
+This document provides an analysis of the `tag-v6.07.js` script, which is the core tracking and overlay engine for the intent.ly (formerly Smarter Click) service.
 
 ### Summary
 
@@ -12,7 +12,7 @@ This script is a comprehensive user tracking and behavior analysis engine. Its p
 
 #### 1. Data Storage and User Identification
 
-*   **Persistent User ID (`smc_uid`):** The script assigns a unique and persistent ID to each user, stored in cookies or local storage. This allows Intent.ly to track the same user across multiple sessions and potentially across different websites using their service.
+*   **Persistent User ID (`smc_uid`):** The script assigns a unique and persistent ID to each user, stored in cookies or local storage. This allows intent.ly to track the same user across multiple sessions and potentially across different websites using their service.
 *   **Cookie and Local Storage Management:** It features a robust system for storing data on the user's device. It creates numerous data points, including:
     *   `smct_session`: Tracks the current session, including start time, last active time, and time spent on the page.
     *   `smc_spv`, `smc_tpv`: Counts session page views and total page views, respectively.
@@ -56,7 +56,7 @@ This script is a comprehensive user tracking and behavior analysis engine. Its p
 
 #### 5. Event and Pixel Tracking
 
-*   **Behavioral Tracking:** The script sends data back to Intent.ly's servers at key moments. This is often referred to as "pixel tracking."
+*   **Behavioral Tracking:** The script sends data back to intent.ly's servers at key moments. This is often referred to as "pixel tracking."
 *   **Tracked Events:**
     *   When an overlay is shown, engaged with, or closed.
     *   When a user completes a purchase (a "goal" or "conversion").

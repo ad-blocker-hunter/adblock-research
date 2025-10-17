@@ -1,10 +1,14 @@
 # Analysis of `tm-demo.smarterclick.co.uk.js`
 
+**File Details:**
+- **URL:** `https://smct.co/tm/?t=demo.smarterclick.co.uk`
+- **Source Page:** `https://demo.smarterclick.co.uk/`
+
 This document provides an analysis of the script loaded from `https://smct.co/tm/?t=demo.smarterclick.co.uk`.
 
 ### Summary
 
-This script is a configuration and loader for the main Intent.ly tracking functionality. It is not the full tracking script itself but sets up the environment for it by defining resource URLs, loading configuration data, and preparing to load the core tracking and overlay scripts.
+This script is a configuration and loader for the main intent.ly tracking functionality. It is not the full tracking script itself but sets up the environment for it by defining resource URLs, loading configuration data, and preparing to load the core tracking and overlay scripts.
 
 ---
 
@@ -44,4 +48,4 @@ This object contains the specific settings for the `demo.smarterclick.co.uk` web
 *   **Device Motion and Orientation:** The script accesses `Gyroscope` data. While this can be used for interactive animations, it can also be a component of a device fingerprinting strategy to uniquely identify a user's device.
 *   **Proactive Push Notification Request:** The script programmatically requests permission for push notifications without direct user interaction (like clicking a button to subscribe). This can be an intrusive and unwelcome request for many users.
 *   **Extensive Tracking Infrastructure:** The sheer number of endpoints for tracking different user actions (page views, basket contents, engagement with overlays) indicates a comprehensive and detailed user tracking system.
-*   **Basket Backup:** The "basket backup" feature implies that the contents of a user's shopping cart are being sent to and stored on Intent.ly's servers, which may happen without the user's explicit knowledge or consent.
+*   **Basket Backup:** The "basket backup" feature implies that the contents of a user's shopping cart are being sent to and stored on intent.ly's servers, which may happen without the user's explicit knowledge or consent.
