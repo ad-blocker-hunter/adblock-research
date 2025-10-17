@@ -1,0 +1,2144 @@
+{
+    "version": "6.07",
+    "id": 569,
+    "name": "demo.smarterclick.co.uk",
+    "css_anims": ".smct-animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.smct-animated.smct-infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.smct-animated.smct-hinge{-webkit-animation-duration:2s;animation-duration:2s}.smct-animated.smct-bounceIn,.smct-animated.smct-bounceOut,.smct-animated.smct-flipOutX,.smct-animated.smct-flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes smct-rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes smct-rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.smct-rubberBand{-webkit-animation-name:smct-rubberBand;animation-name:smct-rubberBand}@-webkit-keyframes smct-shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes smct-shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.smct-shake{-webkit-animation-name:smct-shake;animation-name:smct-shake}@-webkit-keyframes smct-pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes smct-pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.smct-pulse{-webkit-animation-name:smct-pulse;animation-name:smct-pulse}@-webkit-keyframes smct-flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes smct-flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.smct-flash{-webkit-animation-name:smct-flash;animation-name:smct-flash}",
+    "config": {
+        "tagRefreshID": 35638,
+        "jQueryForceLoad": 0,
+        "ignoreHash": 1,
+        "caseSensitive": 0,
+        "insights": 0,
+        "blockIframe": 0,
+        "pxTrackOff": 0,
+        "rulesUTC": 0,
+        "forceOnDebug": 0,
+        "pxApc": 1,
+        "OvReqInt": 0,
+        "FirstCharAsciiFix": 0,
+        "encodeCookies": 1,
+        "refExactMatch": 0,
+        "migrateCookiesToLocalStorage": 0,
+        "enforceSri": 0,
+        "timeout": 300,
+        "scannerTime": 300,
+        "cookieMaxAgeDays": "",
+        "ovCookieHistory": "",
+        "src_co_io": "auto",
+        "insights_auto": "1556116626",
+        "ls3rdptyUID": 1,
+        "dynamicElements": {
+            "BasketValue": {
+                "active": 1,
+                "export": 1,
+                "cookieSearch": "",
+                "readCustomVarOrFunc": "",
+                "strings": "",
+                "urlContains": 0,
+                "htmlContains": 0,
+                "searchDLObject": "",
+                "searchDLKey": "",
+                "selector": "#cart-total",
+                "useLast": 0,
+                "cookieBackup": 1,
+                "type": "text",
+                "attr": "",
+                "customOverRide": "",
+                "funcs": [
+                    {
+                        "type": "digits",
+                        "vals": [
+                            "",
+                            ""
+                        ]
+                    }
+                ]
+            },
+            "ConfirmationPage": {
+                "active": 1,
+                "export": 1,
+                "cookieSearch": "",
+                "readCustomVarOrFunc": "",
+                "strings": "/confirmed.php",
+                "urlContains": 1,
+                "htmlContains": 0,
+                "searchDLObject": "",
+                "searchDLKey": "",
+                "selector": "",
+                "useLast": 0,
+                "cookieBackup": 0,
+                "type": "text",
+                "attr": "",
+                "customOverRide": ""
+            },
+            "OrderId": {
+                "active": 1,
+                "export": 1,
+                "cookieSearch": "",
+                "readCustomVarOrFunc": "",
+                "strings": "",
+                "urlContains": 0,
+                "htmlContains": 0,
+                "searchDLObject": "",
+                "searchDLKey": "",
+                "selector": "#order-id",
+                "useLast": 0,
+                "cookieBackup": 0,
+                "type": "text",
+                "attr": "",
+                "customOverRide": ""
+            },
+            "ObjectKey": {
+                "active": 1,
+                "export": 1,
+                "cookieSearch": "",
+                "readCustomVarOrFunc": "objectKey",
+                "strings": "",
+                "urlContains": 0,
+                "htmlContains": 0,
+                "searchDLObject": "",
+                "searchDLKey": "",
+                "selector": "",
+                "useLast": 0,
+                "cookieBackup": 0,
+                "type": "text",
+                "attr": ""
+            },
+            "Currency": {
+                "active": 1,
+                "export": 1,
+                "cookieSearch": "",
+                "readCustomVarOrFunc": "Currency",
+                "strings": "",
+                "urlContains": 0,
+                "htmlContains": 0,
+                "searchDLObject": "",
+                "searchDLKey": "",
+                "selector": "",
+                "useLast": 0,
+                "cookieBackup": 0,
+                "type": "text",
+                "attr": ""
+            },
+            "BasketCount": {
+                "active": 1,
+                "export": 1,
+                "cookieSearch": "",
+                "readCustomVarOrFunc": "BasketCount",
+                "strings": "",
+                "urlContains": 0,
+                "htmlContains": 0,
+                "searchDLObject": "",
+                "searchDLKey": "",
+                "selector": "",
+                "useLast": 0,
+                "cookieBackup": 0,
+                "type": "text",
+                "attr": ""
+            }
+        },
+        "refs": {
+            "372": {
+                "u": "smc_bbeid",
+                "d": "2"
+            }
+        },
+        "db": 0,
+        "overlays_url": "https://js.smct.io/o/overlays-v6.07.js",
+        "overlays_data_url": "https://smct.co/ov5/load/",
+        "overlays_engage_url": "https://ep.smct.co/ov4/e/",
+        "insights_url": "https://ep.smct.co/insights/",
+        "client_debug_url": "https://js.smct.io/dp/clientDebug-v2.00.js",
+        "client_debug_data": "https://smct.co/cldbData/",
+        "ls_endpoint": "https://ls.smct.io/lse1.3.html",
+        "tag_preview": "default",
+        "webpush_key": "BJXhcpkPxq9q5Rk8a1wVy3MT6bIzRXgavjwF8Cl4IvDxebCZGPAk2Ge17GDEdyucW0TOqOPkwaPojqBC2rQO8mc",
+        "pxt_version": "2a",
+        "pxt_identity_pool_id": "eu-west-1:9a28cbde-383e-4c5b-bddd-3b37a9a7d1be"
+    },
+    "src_co_io": "auto",
+    "rulesList": [
+        {
+            "rulename": "Sabina C",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": "35"
+                },
+                "mobile": {
+                    "id": "36"
+                },
+                "tablet": {
+                    "id": "39"
+                }
+            }
+        },
+        {
+            "rulename": "BB Referrer Test",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": [
+                    372
+                ]
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 2774
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "Envolve Demo",
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "?envolve"
+                ]
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 37037
+                },
+                "mobile": {
+                    "id": 37037
+                },
+                "tablet": {
+                    "id": 37037
+                }
+            }
+        },
+        {
+            "rulename": "Envolve 2",
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "?envolve2"
+                ]
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 37073
+                },
+                "mobile": {
+                    "id": 37073
+                },
+                "tablet": {
+                    "id": 37073
+                }
+            }
+        },
+        {
+            "rulename": "Refer a friend",
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "?refer"
+                ]
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 36901
+                },
+                "mobile": {
+                    "id": 36901
+                },
+                "tablet": {
+                    "id": 36901
+                }
+            }
+        },
+        {
+            "rulename": "Refer a friend (Social)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "?social"
+                ]
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 37017
+                },
+                "mobile": {
+                    "id": 37017
+                },
+                "tablet": {
+                    "id": 37017
+                }
+            }
+        },
+        {
+            "rulename": "Testing copying activation",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 34037
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "Phone Down Test",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 29572
+                },
+                "mobile": {
+                    "id": 29572
+                },
+                "tablet": {
+                    "id": 29572
+                }
+            }
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "/cart.php",
+                    "/checkout.php"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 8009
+                },
+                "tablet": {
+                    "id": 8009
+                },
+                "desktop": {
+                    "id": 8008
+                }
+            },
+            "rulename": "Remail Consent Overlays (Desktop and Mobile)",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": "",
+            "notificationsAccepted": "any"
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "request-notifications"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 6874
+                },
+                "tablet": {
+                    "id": 6874
+                },
+                "desktop": {
+                    "id": 6874
+                }
+            },
+            "rulename": "v5.12 - Request Notifications",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": "",
+            "notificationsAccepted": "not_set"
+        },
+        {
+            "rulename": "v5.12 - Display on Notification Tab",
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "display-on-notification",
+                    "request-notifications"
+                ]
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "not_set",
+            "delay": "",
+            "pageViews": "",
+            "filter": 50,
+            "filterGroup": "A",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 6875
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "v5.12 - Display on Notification Tab (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "display-on-notification",
+                    "request-notifications"
+                ]
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "not_set",
+            "delay": "",
+            "pageViews": "",
+            "filter": 50,
+            "filterGroup": "B",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 64386
+                },
+                "mobile": {
+                    "id": ""
+                },
+                "tablet": {
+                    "id": ""
+                }
+            }
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "{/product.php}"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 2531
+                }
+            },
+            "rulename": "Dynamic Product Overlay",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "click-to-reveal"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 35
+                }
+            },
+            "rulename": "Click To Reveal",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "insert-email-to-reveal"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 36
+                }
+            },
+            "rulename": "Insert Email To Reveal",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "broccoli"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 616
+                }
+            },
+            "rulename": "Broccoli Design",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "countdown-timer"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 617
+                }
+            },
+            "rulename": "Countdown Timer",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "click-to-redirect"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 38
+                }
+            },
+            "rulename": "Click to Redirect",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "rotating-clock"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 734
+                }
+            },
+            "rulename": "Rotating Clock",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "mobile-overlay"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 47
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 0
+                }
+            },
+            "rulename": "Mobile Overlay",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "video-background"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 48
+                }
+            },
+            "rulename": "Video Background",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "terms-and-conditions"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 224
+                }
+            },
+            "rulename": "Terms and Conditions",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "animated-envelope"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 820
+                }
+            },
+            "rulename": "Animated Envelope",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "globe-overlay"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 827
+                }
+            },
+            "rulename": "Globe Overlay",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "mothers-day-video"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 1045
+                }
+            },
+            "rulename": "Mother's Day Video",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "side-panel-right"
+                ]
+            },
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 2540
+                }
+            },
+            "rulename": "Side Panel Right",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "click-to-print"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 2543
+                }
+            },
+            "rulename": "Click To Print",
+            "pageViews": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "copytoclipboard"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 35
+                },
+                "tablet": {
+                    "id": 35
+                },
+                "desktop": {
+                    "id": 35
+                }
+            },
+            "rulename": "Copy to Clipboard",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "back-button-display"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 6876
+                }
+            },
+            "rulename": "V5.12 - Back Button Display",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "url-click"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 6877
+                }
+            },
+            "rulename": "v5.12 - URL Click",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "strip-top"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 6882
+                }
+            },
+            "rulename": "v5.12 - Strip top",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "strip-bottom"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 6883
+                }
+            },
+            "rulename": "v5.12 - Strip bottom",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": ""
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "overlay=heatmappingOnly"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 10711
+                },
+                "tablet": {
+                    "id": 10711
+                },
+                "desktop": {
+                    "id": 10711
+                }
+            },
+            "rulename": "Heatmapping Only",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": "",
+            "notificationsAccepted": "any"
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "overlay=pageCloseOnly"
+                ]
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 10712
+                },
+                "tablet": {
+                    "id": 10712
+                },
+                "desktop": {
+                    "id": 10712
+                }
+            },
+            "rulename": "Page Close Only",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": "",
+            "notificationsAccepted": "any"
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 19441
+                }
+            },
+            "rulename": "Carphone Warehouse - DEMO PAGE",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": "",
+            "notificationsAccepted": "any"
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "delay": "",
+            "filter": "",
+            "timeEnd": "",
+            "overlays": {
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                },
+                "desktop": {
+                    "id": 19438
+                }
+            },
+            "rulename": "Banggood Slots - DEMO PAGE",
+            "visitors": "all",
+            "pageViews": "",
+            "timeStart": "",
+            "filterGroup": "",
+            "notificationsAccepted": "any"
+        },
+        {
+            "rulename": "Basket ball game - DEMO PAGE",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 29279
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "Shoot Em Up Game - DEMO PAGE",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 30955
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "Testing copying activation",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 34037
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "Glossybox",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 60278
+                },
+                "mobile": {
+                    "id": 0
+                },
+                "tablet": {
+                    "id": 0
+                }
+            }
+        },
+        {
+            "rulename": "test overlay for dynamic basket",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": 1,
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "on",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 89528
+                },
+                "mobile": {
+                    "id": 89528
+                },
+                "tablet": {
+                    "id": 89528
+                }
+            }
+        },
+        {
+            "rulename": "EE Demo",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": ""
+                },
+                "mobile": {
+                    "id": 93033
+                },
+                "tablet": {
+                    "id": ""
+                }
+            }
+        },
+        {
+            "rulename": "Trim Spaces Test Rule - Sabina",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "off",
+            "recomminderRequired": "off",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 39
+                },
+                "mobile": {
+                    "id": ""
+                },
+                "tablet": {
+                    "id": ""
+                }
+            }
+        },
+        {
+            "rulename": "Phone Down Test (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 107274
+                },
+                "mobile": {
+                    "id": 107275
+                },
+                "tablet": {
+                    "id": 107276
+                }
+            }
+        },
+        {
+            "rulename": "Sabina BBBBBB",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": 95,
+            "filterGroup": "Sabina BBBBBB",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": "47"
+                },
+                "mobile": {
+                    "id": "47"
+                },
+                "tablet": {
+                    "id": "224"
+                }
+            }
+        },
+        {
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "urls": {
+                "blacklist": [],
+                "whitelist": [
+                    "rotating-clock"
+                ]
+            },
+            "filter": 95,
+            "overlays": {
+                "desktop": {
+                    "id": "36"
+                },
+                "mobile": {
+                    "id": "39"
+                },
+                "tablet": {
+                    "id": "47"
+                }
+            },
+            "rulename": "Rotating Clock (Copy)",
+            "pageViews": "",
+            "filterGroup": "Rotating Clock (Copy)"
+        },
+        {
+            "rulename": "Incrementality Test (Group B) - Sabina BBBBBB",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": 5,
+            "filterGroup": "Sabina BBBBBB",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": "107759"
+                },
+                "tablet": {
+                    "id": "107761"
+                },
+                "mobile": {
+                    "id": "107759"
+                }
+            }
+        },
+        {
+            "rulename": "Sabina C (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 107772
+                },
+                "mobile": {
+                    "id": 107771
+                },
+                "tablet": {
+                    "id": 107773
+                }
+            }
+        },
+        {
+            "rulename": "BB Referrer Test (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": [
+                    372
+                ]
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": 95,
+            "filterGroup": "BB Referrer Test (Copy)",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": "39"
+                },
+                "mobile": {
+                    "id": "47"
+                },
+                "tablet": {
+                    "id": "47"
+                }
+            }
+        },
+        {
+            "rulename": "Incrementality Test (Group B) - BB Referrer Test (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": [
+                    372
+                ]
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": 5,
+            "filterGroup": "BB Referrer Test (Copy)",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": "107768"
+                },
+                "mobile": {
+                    "id": "107759"
+                },
+                "tablet": {
+                    "id": "107759"
+                }
+            }
+        },
+        {
+            "rulename": "Test",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "off",
+            "recomminderRequired": "off",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 48
+                },
+                "mobile": {
+                    "id": 617
+                },
+                "tablet": {
+                    "id": 47
+                }
+            }
+        },
+        {
+            "rulename": "Test (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "off",
+            "recomminderRequired": "off",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": "36"
+                },
+                "mobile": {
+                    "id": "47"
+                },
+                "tablet": {
+                    "id": null
+                }
+            }
+        },
+        {
+            "rulename": "Sabina BBBBBB (Copy)",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "delay": "",
+            "pageViews": "",
+            "filter": 95,
+            "filterGroup": "Sabina BBBBBB",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 143330
+                },
+                "mobile": {
+                    "id": 143331
+                },
+                "tablet": {
+                    "id": 143332
+                }
+            }
+        },
+        {
+            "rulename": "TEST Ninja Kitchen Rule Variant A",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "off",
+            "recomminderRequired": "off",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 168841
+                },
+                "mobile": {
+                    "id": 168843
+                },
+                "tablet": {
+                    "id": 168844
+                }
+            }
+        },
+        {
+            "rulename": "TEST Ninja Kitchen Rule Variant B",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "off",
+            "recomminderRequired": "off",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 168842
+                },
+                "mobile": {
+                    "id": 168846
+                },
+                "tablet": {
+                    "id": 168845
+                }
+            }
+        },
+        {
+            "rulename": "Unsubscribe BB Test",
+            "urls": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "refs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "locs": {
+                "blacklist": [],
+                "whitelist": []
+            },
+            "dynBasketMinQty": "",
+            "dynamicElementRules": {
+                "BasketValue": {
+                    "is1": ">=",
+                    "val1": "1",
+                    "andOr": "",
+                    "is2": ">",
+                    "val2": ""
+                }
+            },
+            "visitors": "all",
+            "notificationsAccepted": "any",
+            "dynBasketRequired": "off",
+            "recomminderRequired": "off",
+            "delay": "",
+            "pageViews": "",
+            "filter": "",
+            "filterGroup": "",
+            "timeStart": "",
+            "timeEnd": "",
+            "overlays": {
+                "desktop": {
+                    "id": 174853
+                },
+                "mobile": {
+                    "id": ""
+                },
+                "tablet": {
+                    "id": ""
+                }
+            }
+        }
+    ],
+    "plugins": {
+        "autoInsert": {
+            "url": "cart.php",
+            "input": "#promocode",
+            "holder": "",
+            "holderDisplay": "block",
+            "elmAnimate": "",
+            "elmAnimateClass": "rubberBand",
+            "secsDisp": 2,
+            "timeout": 500
+        },
+        "tracking": {
+            "ABon": 0,
+            "confirmPage": "ConfirmationPage",
+            "orderValue": "BasketValue",
+            "orderID": "OrderId",
+            "currency": "",
+            "orderCount": "",
+            "px1": "",
+            "px1Load": "img",
+            "eh": 0
+        },
+        "basketBackup": {
+            "id": "55"
+        },
+        "smarterCodes": {
+            "id": "152"
+        },
+        "sc_tracking": {
+            "confirmPage": "ConfirmationPage",
+            "orderValue": "BasketValue",
+            "orderID": "",
+            "currency": "Currency",
+            "orderCount": "BasketCount"
+        },
+        "notifications": {
+            "serviceWorker": "/assets/js/service-worker.js"
+        },
+        "sources": {
+            "urlSource": 1,
+            "httpReferrer": 1
+        },
+        "recomminder": {
+            "itemSku": "ConfirmationPage",
+            "itemPrice": "",
+            "itemSalePrice": "ConfirmationPage",
+            "itemImage": "",
+            "itemName": "OrderId",
+            "itemLink": ""
+        }
+    },
+    "useLoc": "country",
+    "ip": "209.93.199.113",
+    "ipb": false,
+    "device": false,
+    "t": 0.002107,
+    "locSig": "0f5bfb9833c13dc481f72af000dd2a6a"
+}
