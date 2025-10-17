@@ -60,3 +60,17 @@ The system is composed of several key scripts:
 ### Conclusion
 
 The intent.ly (Smarter Click) platform is a sophisticated and aggressive marketing tool designed to maximize e-commerce conversions. While effective from a marketing perspective, it achieves its goals through highly intrusive tracking, extensive data collection, and user experience patterns that many would consider annoying or a violation of privacy. The technology is a prime candidate for blocking by privacy-focused tools.
+
+### Associated Domains
+
+The following domains are used by `intent.ly` for loading scripts and sending tracking data:
+
+-   **smct.co**
+    -   `smct.co`
+    -   `ep.smct.co`
+    -   `events.smct.co`
+    -   `admin.smct.co`
+    -   `dc.smct.co`
+-   **smct.io**
+    -   `js.smct.io`
+    -   `ls.smct.io`
